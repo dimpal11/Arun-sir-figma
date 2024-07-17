@@ -1,0 +1,132 @@
+@font-face{
+    font-family: "myFont";
+    src: url(lack/Lack-Regular.otf);
+}
+
+h1{
+    font-family:"myFont";
+    font-weight: 300;
+}
+.form .form-control{
+    border-radius: 30px;
+
+}
+
+button{
+    height: 40px;
+    width: 147px;
+    border-radius: 30px !important;
+}
+.dropdown{
+    margin-bottom: 10px;
+}
+.dropdown-toggle{
+    display: block;
+    width: 100%;
+    border: none;
+}
+.dropdown-toggle span{
+    margin-right: 130px;
+}
+ul{
+    width: 100%;
+}
+.step{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 18px;
+    margin-top: 40px;
+    width: 90%;
+}
+.step h2{
+    font-size: 15px;
+}
+.dropdown-item:hover {
+    border-radius: 40px;
+    color: var(--bs-dropdown-link-hover-color);
+    background-color: var(--bs-dropdown-link-hover-bg);
+}
+.dropbutton{
+    width: 100%;
+}
+/* body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #F9F9F9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.title {
+    font-size: 24px;
+    color: #333;
+}
+
+.highlight {
+    color: #FF6363;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.connect-wallet, .confirm-transfer {
+    width: 45%;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.connect-wallet h2, .confirm-transfer h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.dropdown label, .transfer-details label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.dropdown select, .transfer-details input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+}
+
+.transfer-details p {
+    margin: 10px 0;
+}
+
+.connect-wallet-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #00BFFF;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.connect-wallet-button:hover {
+    background-color: #0099CC;
+} */
